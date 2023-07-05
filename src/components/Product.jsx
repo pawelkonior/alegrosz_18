@@ -46,6 +46,12 @@ function Product() {
             <span>Price ${product.price}</span>
             <br />
             <button onClick={handleDelete}>Delete Product</button>
+            <Link
+                style={{ padding: 10, margin: 10, display: "inline-block" }}
+                to={`/edit-product/${productId}`}
+            >
+                Edit {product.name}
+            </Link>
             <Link to="/">Back</Link>
         </div>
     );

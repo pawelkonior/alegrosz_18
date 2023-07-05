@@ -2,14 +2,14 @@
   "products": [
     {
       "id": 1,
-      "name": "Smartfon XYZ",
+      "name": "Smartfon Iphone",
       "description": "Najnowszy smartfon z zaawansowanymi funkcjami.",
-      "price": 999.99,
-      "stockCount": 10
+      "price": "1499",
+      "stockCount": "2"
     },
     {
       "id": 3,
-      "name": "Laptop ABC",
+      "name": "Laptop Lenovo",
       "description": "Lekki i przenośny laptop z mocnym procesorem.",
       "price": 1999.99,
       "stockCount": 8
