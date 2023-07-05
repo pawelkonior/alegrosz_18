@@ -1,74 +1,88 @@
 {
   "products": [
     {
-      "id": "1",
+      "id": 1,
       "name": "Smartfon XYZ",
       "description": "Najnowszy smartfon z zaawansowanymi funkcjami.",
       "price": 999.99,
       "stockCount": 10
     },
     {
-      "id": "2",
-      "name": "Telewizor LED",
-      "description": "Duży telewizor LED o wysokiej rozdzielczości.",
-      "price": 1499.99,
-      "stockCount": 5
-    },
-    {
-      "id": "3",
+      "id": 3,
       "name": "Laptop ABC",
       "description": "Lekki i przenośny laptop z mocnym procesorem.",
       "price": 1999.99,
       "stockCount": 8
     },
     {
-      "id": "4",
+      "id": 4,
       "name": "Słuchawki Bluetooth",
       "description": "Bezprzewodowe słuchawki z długim czasem pracy baterii.",
       "price": 129.99,
       "stockCount": 15
     },
     {
-      "id": "5",
+      "id": 5,
       "name": "Konsola do gier XYZ",
       "description": "Najnowsza konsola do gier z wyjątkowymi grafikami.",
       "price": 499.99,
       "stockCount": 3
     },
     {
-      "id": "6",
+      "id": 6,
       "name": "Aparat cyfrowy",
       "description": "Profesjonalny aparat cyfrowy z wysoką rozdzielczością.",
       "price": 799.99,
       "stockCount": 6
     },
     {
-      "id": "7",
+      "id": 7,
       "name": "Tablet ABC",
       "description": "Zwinny tablet z ekranem dotykowym i wieloma funkcjami.",
       "price": 399.99,
       "stockCount": 10
     },
     {
-      "id": "8",
+      "id": 8,
       "name": "Głośniki Bluetooth",
       "description": "Bezprzewodowe głośniki z mocnym basem i długim czasem pracy baterii.",
       "price": 149.99,
       "stockCount": 12
     },
     {
-      "id": "9",
+      "id": 9,
       "name": "Smartwatch XYZ",
       "description": "Elegancki smartwatch z funkcjami monitorowania zdrowia.",
       "price": 299.99,
       "stockCount": 7
     },
     {
-      "id": "10",
+      "id": 10,
       "name": "Router WiFi ABC",
       "description": "Wydajny router WiFi o duzym zasięgu.",
       "price": 79.99,
       "stockCount": 9
+    },
+    {
+      "name": "Apple Vision Pro",
+      "description": "\nApple Vision Pro to zaawansowane narzędzie do analizy obrazów, które oferuje szeroki zakres możliwości w zakresie rozpoznawania obiektów, analizy twarzy, wykrywania tekstów i wiele więcej. Dzięki swojej potężnej technologii i prostemu interfejsowi, Apple Vision Pro umożliwia programistom tworzenie innowacyjnych aplikacji, które wykorzystują możliwości analizy obrazów na platformie Apple.",
+      "price": "3499",
+      "stockCount": "50",
+      "id": 11
+    },
+    {
+      "name": "Cebula",
+      "description": "Cebula dobra jest",
+      "price": "23",
+      "stockCount": "23456",
+      "id": 12
+    },
+    {
+      "name": "Ziemniaki",
+      "description": "Smierć i nie dowierzanie",
+      "price": "34",
+      "stockCount": "3",
+      "id": 14
     }
   ]
 }
