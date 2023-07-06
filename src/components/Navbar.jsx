@@ -6,8 +6,12 @@ import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { CartContext } from "../context/CartContext.jsx";
 
 function Navbar() {
+    const [{ total }, setCart] = useContext(CartContext);
+
     return (
         <Box sx={{ flexGrow: 1 }}>
             <AppBar position="static">
@@ -34,6 +38,24 @@ function Navbar() {
                     <Button color="inherit">
                         <Link to="add-product">Add Product</Link>
                     </Button>
+                    {total > 0 && (
+                        <>
+                            <Typography
+                                sx={{ mr: 1 }}
+                                variant="h6"
+                                component="div"
+                            >
+                                Cart: ${total}
+                            </Typography>
+                            <Button
+                                onClick={() => setCart({ total: 0 })}
+                                color="error"
+                                variant="outlined"
+                            >
+                                Clear
+                            </Button>
+                        </>
+                    )}
                 </Toolbar>
             </AppBar>
         </Box>
