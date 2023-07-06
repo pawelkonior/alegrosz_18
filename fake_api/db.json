@@ -2,9 +2,9 @@
   "products": [
     {
       "id": 1,
-      "name": "Smartfon Iphone",
+      "name": "Smartfon",
       "description": "Najnowszy smartfon z zaawansowanymi funkcjami.",
-      "price": "1499",
+      "price": "149",
       "stockCount": "2"
     },
     {
