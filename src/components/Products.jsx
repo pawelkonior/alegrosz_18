@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+
+import ProductCard from "./ProductCard.jsx";
+import Box from "@mui/material/Box";
 
 function Products() {
     const [products, setProducts] = useState([]);
@@ -20,22 +22,23 @@ function Products() {
     }
 
     return (
-        <>
+        <Box
+            sx={{
+                display: "flex",
+                flexWrap: "wrap",
+                gap: 3,
+                justifyContent: "center",
+            }}
+        >
             {products.map((product) => (
-                <div
+                <ProductCard
+                    name={product.name}
+                    price={`${product.price}`}
                     key={product.id}
-                    style={{
-                        border: "1px solid black",
-                        padding: 10,
-                        margin: 10,
-                    }}
-                >
-                    <h2>{product.name}</h2>
-                    <p>{product.price}</p>
-                    <Link to={`/product/${product.id}`}>Details</Link>
-                </div>
+                    id={product.id}
+                />
             ))}
-        </>
+        </Box>
     );
 }
 

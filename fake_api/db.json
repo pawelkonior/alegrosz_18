@@ -8,13 +8,6 @@
       "stockCount": "2"
     },
     {
-      "id": 3,
-      "name": "Laptop Lenovo",
-      "description": "Lekki i przenośny laptop z mocnym procesorem.",
-      "price": 1999.99,
-      "stockCount": 8
-    },
-    {
       "id": 4,
       "name": "Słuchawki Bluetooth",
       "description": "Bezprzewodowe słuchawki z długim czasem pracy baterii.",
@@ -23,7 +16,7 @@
     },
     {
       "id": 5,
-      "name": "Konsola do gier XYZ",
+      "name": "Konsola do ",
       "description": "Najnowsza konsola do gier z wyjątkowymi grafikami.",
       "price": 499.99,
       "stockCount": 3
@@ -83,6 +76,20 @@
       "price": "34",
       "stockCount": "3",
       "id": 14
+    },
+    {
+      "name": "",
+      "description": "",
+      "price": "5333323",
+      "stockCount": "",
+      "id": 15
+    },
+    {
+      "name": "Ziemniaki 4",
+      "description": "Piękne",
+      "price": "24",
+      "stockCount": "234",
+      "id": 16
     }
   ]
 }
